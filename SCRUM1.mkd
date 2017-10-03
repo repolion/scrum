@@ -1,0 +1,150 @@
+Introduction à SCRUM (méthode agile)
+===================================
+Tout dabord SCRUM est une méthodologie de gestion de projet agile. </br>
+## Qu'est ce qui différencie une méthodologie de gestion de  projet agile d'une méthodologie classique?
+
+Principalement que dans une méthodologie de gestion classique on a une triple contrainte très forte.
+* __Scope__
+* __time__
+* __cost__
+
+Avant de déterminer des activités, il faut définir le périmètre du projet et ensuite parlé du temps et des coûts.
+Sans vision clair du périmètre du projet, il sera difficile de définir clairement les activités de celui-ci et donc de définir les coûts pour obtenir les ressources, la main d'oeuvre, ...
+</br></br>
+Le problème dans les __méthodologie de gestion classique__, c'est que si on se trompe (et c'est ce qui arrive souvent) dans l'expression des besoins (dans le scope). Les activités qui vont aboutir ne seront pas les bonnes, les coûts seront également faux (le budget risque d'être sous évalué).
+</br></br>
+Si on ne sait pas exactement ce que on veut ou bien si on pense qu'on va le découvrir au fur et à mesure, il n'est pas possible de préciser le scope et donc ne fonctionnera pas avec la méthodologie de gestion classique (car le scope n'est pas clairement définit).
+</br></br>
+On a besoin d'une méthodologie pour dans le cas où on ne connait pas exactement le périmètre (scope) de manière à pouvoir le construire petit à petit. Et définir au fur et à mesure du développement les fonctionnalités qui sont les importantes dans la phase d'après.</br></br>
+
+Ce besoin à donner naissance aux __méthodologies de gestion agiles__ comme SCRUM. Ces méthodologies sont souvent associés au développement applicatif mais peuvent en fait être utilisés dans n'importe quel développement de produit.
+
+## Terminologie
+Le terme __SCRUM__ signifie en anglais "La mêlée du Rugby", ce n'est pas pour rien!
+Le processus de développement SCRUM utilise les valeurs et l'esprit du rugby pour le transposer à l'industrie du développement de logiciels et aux projets informatiques. </br>
+Les membres d'une équipes de rugby doivent unir leurs forces pour atteindre un seul et même objectif et ils vont "mettre le paquet" pour l'atteindre. </br>
+
+SCRUM suppose une __INTENSE__ collaboration entre les membres d'une équipe.
+## SCRUM c'est quoi?
+
+On ne va pas faire un plan de projet qui va s'étendre sur plusieurs années avec une expression de besoin qui fait 1000 pages et dont on sait très bien qu'une fois que ce sera réalisé ne correspondra pas au besoin.
+
+SCRUM fonctionne donc en mode agile, càd en mode incrémnetal et itératif.
+__Itératif__, car on procède par itération et
+pour construire une solution globale on __incrémente__.
+
+## Qu'est ce qui caractérise SCRUM?
+
+La réponse est: "__DIVISER pour REGNER__"
+
+C'est le crédo de SCRUM, car on va __TOUT diviser__!!!
+* les équipes (rôles)
+* le temps
+* le besoin
+
+1. On divise l'équipe
+
+Cela sert à limiter la taille pour arriver à la meilleurs synergie. </br>
+Une équipe SCRUM compte en général entre 5 et 9 personnes. Si il y a plus de 10 personnes dans une équipe, il faudra appliquer "__le SCRUM de SCRUM__"!</br>
+
+## Organisation de SCRUM
+
+SCRUM définit principalement 3 rôles
+* Product Owner
+* SCRUM Master
+* L'équipe de développement
+
+#### Le Product Owner
+
+C'est celui qui va porter la vision du produit à réaliser. C'est généralement le représentant du client, voir le client lui même.</br>
+
+#### Le SCRUM Master
+Le SCRUM Master n'est pas un chef de projet !!!!
+L'esprit SCRUM est d'auto-organiser l'équipe.
+
+C'est plutôt un pilote/ leader.
+
+Il veille à ce que que chacun puisse travailler au maximum de ses capacités, en élmiminant les obstacles éventuels.</br>
+
+Il protège l'équipe des perturbations extérieurs.
+Est parfois aussi appelés le "__Sheep Dog__" ou "__Le FireWall__".</br>
+
+
+
+#### Equipe de développement (consitué de membres).
+
+C'est l'équipe mandaté pour réaliser le produit.
+
+![SCRUM Schema1](images/scrum1.png)
+
+On utilise des  "__time boxes__".</br>
+
+Ces différentes boites découpées dans le temps s'appellent des sprint.
+
+Pendant chaque sprint on va faire le travaille de développement nécessaire pour réaliser l'incrément de fonctionnalité ou les incréments de fonctionnalités demandés par les utilisateurs (client et/ou Product owner).
+
+### Quels sont les incréments de fonctionnalités demandé par les utilisateurs?
+
+Les attentes vont être listées, souvent sur des post it. Ces attentes vont être priorisées.
+L'ensemble de ces attentes vont être listées dans le __Product Backlog__ de manière priorisées. C'est à dire qu'on va dépiler les attentes depuis le haut du Product Backlog (car activités prioritaires).
+
+![SCRUM Schema1](images/tableScrum.jpg)
+
+2. On va diviser notre temps (planning) en plusieurs bloc de temps appelés __itérations__ ou __sprint__.
+Une itération va durée entre 2 à 4 semaines.
+Cela dépend de
+  * la taille de l'équipe
+  * la nature du produit</br></br>
+
+  A la fin d'un sprint on livre un incrément de produit qui sera __partiel__ mais __fonctionnel__!!!
+  Il est appellé "__Produit partiel potentiellement livrable__". </br>
+  A ce moment le client peut décider d'arrêter le projet.
+
+3. On va diviser le besoin en sous besoin appelés "__Users Stories__", leur particularité est qu'elles vont être
+  * assez précises (pour être bien appréhendées par l'équipe)
+  * assez petites pour être développées et testées durant une itérations </br></br>
+
+## Déroulement d'un projet SCRUM
+
+REM: La vie d'un projet SCRUM et jalonnée par un ensemble de réunions clairement définit et strictement limité dans le temps.
+
+On compte principalement 4 réunions
+
+* __sprint planning__ (planification du sprint)
+  On y plannifie l'itération. Généralement en 2 temps
+    1. A partir du haut de la pile du Product backLog on va prendre des fonctionnalités les ajouter au __sprintbacklog__ , ce sont les __PBis__(product backlog items) ou Users Stories (préparées par le Product Owner).
+    2. Décomposition des stories ou Product backlog items en tâches.
+
+    Là,le SCRUM Master doit vérifier que l'équipe de réalisation a bien comprit le besoin.
+
+  Après le sprint planning, exécution du sprint par l'équipe de développement. C'est le __sprint execution__!!!
+
+* __Daily SCRUM__ (réunion quotidienne)
+
+Chaque jour l'équipe SCRUM se réunit pendant +ou- 15 min pour faire l'état sur son avancement. On passe en revue ce qui a été fait la veille, ce qui va être codé et comment s'y prendre. Chaque membre de l'équipe doit répondre aux questions suivantes
+  1. __Qu'est ce que j'ai fait hier?__
+  2. __Qu'est ce que je compte faire aujourd'hui?__
+  3. __Est ce que j'ai des obstacles qui m'empêche de travailler?__
+
+  A la fin de l'itération, on devrait avoir produit un ou plusieurs incrément de fonctionnalités qui sont potentiellement intégrables dans le produit (en anglais: potentially shippable product increment);
+
+  A la fin de l'itération, on ne livre pas forcément quelque chose. Ce que on a produit doit pouvoir être "mis" en production (fonctionnel).
+
+* __Sprint Review__ (revue de sprint) 1 à 4 h
+
+C'est lors de cette réunion qu'on fait __le bilan de l'itération__. Notement en faisant une démonstration devant le client ou bien devant le Produt Owner.
+
+Réunion importante!!! On y recueille le __feedback client__. </br>
+
+C'est là que on se rend compte de l'importance de la méthodologie de gestion agile SCRUM car il est très rare qu'un client/utilisateur sache expliquer ses besoins vis à vis d'une application. Mais si on lui montre qq chose qui vient d'être réalisé il saura vous dire si cela lui convient ou non et aura sans doutes d'autres idées.
+
+Demande au client/utilisateur(product owner) ce qu'il va falloir ajouter/supprimer au product backlog.
+
+C'est notement lors de cette réunion que le client peut éventuellement réajuster ses besoins ou mieux les exprimer.
+
+* __Sprint Retrospective__ (La rétrospective) 1 à 4 h
+
+Réunion la plus importante. __Toute l'équipe se remet en question ensemble__. Analyse des points de force, de faiblesse, les bloquages, axes d'améliorations pour l'itération qui suit!
+
+
+### Dans le SCRUM importance du timing, pour ne pas perdre de temps!!!
